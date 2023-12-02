@@ -1,0 +1,1 @@
+# Link: https://www.figma.com/file/JYFzcTyjFvsYVBXJeakX5d/Studio-Design-Landin-Page-(Community)?type=design&node-id=0-1&mode=design&t=d1pbEcUltzGo6CUJ-0
