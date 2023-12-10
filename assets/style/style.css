@@ -1,0 +1,63 @@
+:root {
+  --h1-color: #000;
+  --paragraph-color: #565656;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* @font-face {
+  font-family: 'Avertastevia';
+  src: url('./assets/fonts/Avertastevia.ttf');
+} */
+
+body {
+  /* font-family: 'Avertastevia'; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header, section {
+  margin: 40px 0;
+}
+
+#container {
+  width: 1200px;
+  margin: auto;
+}
+
+.cabecalho {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  width: 1050px;
+  margin: 40px auto;
+}
+
+.cabecalho .titulo {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.cabecalho .titulo .destaque {
+  font-weight: bold;
+  margin-right: -3px;
+}
+
+.cabecalho .navegacao {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.cabecalho .navegacao .lista {
+  display: flex;
+}
+
+.cabecalho .navegacao .lista .item {
+  font-family: bold;
+  list-style: none;
+  margin-left: 60px;
+}
