@@ -9,14 +9,13 @@
   box-sizing: border-box;
 }
 
-/* @font-face {
+@font-face {
   font-family: 'Avertastevia';
-  src: url('./assets/fonts/Avertastevia.ttf');
-} */
+  src: url('../fonts/Avertastevia.ttf');
+}
 
-body {
-  /* font-family: 'Avertastevia'; */
-  font-family: Arial, Helvetica, sans-serif;
+html {
+  font-family: 'Avertastevia', sans-serif;
 }
 
 header, section {
