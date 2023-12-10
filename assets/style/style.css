@@ -1,21 +1,20 @@
 :root {
   --h1-color: #000;
   --paragraph-color: #565656;
+  --color-background-button: #2639ED;
+  --color-letter-button: #FFF;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Avertastevia', sans-serif;
 }
 
 @font-face {
   font-family: 'Avertastevia';
   src: url('../fonts/Avertademo.ttf');
-}
-
-html {
-  font-family: 'Avertastevia', sans-serif;
 }
 
 header, section {
@@ -28,10 +27,9 @@ header, section {
 }
 
 .cabecalho {
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
-  width: 1050px;
+  width: 1070px;
 }
 
 .cabecalho .titulo {
@@ -69,4 +67,39 @@ header, section {
 
 .cabecalho .navegacao .lista .item.-ultimo-item {
   margin-right: 20px;
+}
+
+.produto-digital {
+  display: flex;
+}
+
+.produto-digital .parte-esquerda {
+  width: 900px;
+}
+
+.parte-esquerda .titulo {
+  font-size: 35px;
+  margin-top: 60px;
+}
+
+.parte-esquerda .paragrafo {
+  margin-top: 40px;
+  width: 480px;
+  color: var(--paragraph-color);
+}
+
+.parte-esquerda .botao {
+  margin-top: 33px;
+  background-color: var(--color-background-button);
+  border: none;
+  padding: 20px 40px;
+  color: var(--color-letter-button);
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-radius: 50px;
+}
+
+.produto-digital .parte-direita img {
+  width: 600px;
 }
